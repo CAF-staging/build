@@ -64,7 +64,7 @@ if [ "$TARGET_UNIFIED_DEVICE" == "" ] ; then
   fi
 fi
 if [ -n "$DEVICE_MAINTAINERS" ] ; then
-  echo "ro.citrus.maintainer=$DEVICE_MAINTAINERS"
+  echo "ro.caf.maintainer=$DEVICE_MAINTAINERS"
 fi
 echo "ro.build.characteristics=$TARGET_AAPT_CHARACTERISTICS"
 
