@@ -1079,7 +1079,7 @@ function croot()
 
 function cdevice()
 {
-  DEVICE_TOP=*/*/$CITRUS_BUILD/
+  DEVICE_TOP=*/*/$CAF_BUILD/
     if [  "$DEVICE_TOP" ]; then
         cd $DEVICE_TOP
     else
